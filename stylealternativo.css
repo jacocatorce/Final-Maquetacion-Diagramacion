@@ -1,0 +1,389 @@
+body {
+
+    background-color: fff; 
+    color: #000000;
+
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+div#contenedorsup {
+    
+    background-color: #CFCFCF;
+    border: 2px solid #000;
+    box-shadow: 6px 6px 0 #000;
+    border-radius: 5px 5px 0px 0px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    height: 80px;
+    width: 98%;
+    margin: 5px 0px;
+    padding: 5px;
+
+}
+
+div#contenedormid {
+    
+    background-color: #ffffff;
+    border: 2px solid #000;
+    box-shadow: 6px 6px 0 #000;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: 98%;
+    height: 1065px;
+    margin: 5px 0px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+}
+
+div#contenedorbot {
+    
+    background-color: #CFCFCF;
+    border: 2px solid #000;
+    box-shadow: 6px 6px 0 #000;
+    border-radius: 5px 5px 0px 0px;
+    border-radius: 0px 0px 5px 5px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+
+    height: 30px;
+    width: 98%;
+    margin: 5px 0px;
+    padding: 5px;
+
+}
+
+div#contenedorcosas {
+
+    background-color: #CFCFCF;
+    border: 2px solid #000;
+    border-radius: 5px 5px 0px 0px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 575px;
+    width: 98%;
+    margin: 50px 10px 0px 10px;
+    padding: 10px;
+
+}
+
+div#contenedorcosasdos {
+
+    background-color: #CFCFCF;
+    border: 2px solid #000;
+    border-radius: 5px 5px 0px 0px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 575px;
+    width: 98%;
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+
+}
+
+div#contenedorcosastres {
+
+    background-color: #CFCFCF;
+    border: 2px solid #000;
+    border-radius: 5px 5px 0px 0px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 800px;
+    width: 98%;
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+
+}
+
+div#cosas {
+
+    background-color: #ffffff;
+    border: 2px solid #000;
+    box-shadow: 6px 6px 0 #000;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: 50%;
+    height: 545px;
+    margin: 5px 5px;
+    padding: 5px;
+
+}
+
+div#cosashorizontal {
+
+    background-color: #ffffff;
+    border: 2px solid #000;
+    box-shadow: 6px 6px 0 #000;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: 90%;
+    height: 545px;
+    margin: 5px 5px;
+    padding: 5px;
+
+}
+
+div#cosasimg {
+
+    background-color: #fff;
+    background-image: url(https://media.istockphoto.com/id/177514116/es/foto/perro-divertido-estilo-de-pelo-afro.jpg?s=612x612&w=0&k=20&c=EZ3YPRj820TQVuQMPkLH8vyFBalTDj4tPYlDyMyAgGo=);
+    background-position: center center;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    border: 2px solid #000;
+    box-shadow: 6px 6px 0 #000;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: 31%;
+    height: 545px;
+    margin: 5px 5px;
+    padding: 5px;
+
+}
+
+h1 {
+
+    font-family: "Momo Trust Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    text-align: right;
+
+    margin: 3em 3em 0px auto;
+
+}
+
+h2 {
+
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+    text-align: right;
+
+    margin: 5px 4em 0px auto;
+
+}
+
+img#pagina {
+
+    margin: auto 20px auto 0;
+    height: 20px;
+    width: 20px;
+
+}
+
+p#nombre {
+
+    margin: auto 1em auto 0;
+
+}
+
+a {
+
+    background-color: #CFCFCF;
+    border: 2px solid #000;
+    box-shadow: 6px 6px 0 #000;
+    border-radius: 5px 5px 0px 0px;
+    border-radius: 0px 0px 5px 5px;
+
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    
+    text-align: auto;
+
+    height: 45px;
+    width: 20%;
+    margin: 25px 6em 0px auto;
+    padding: 10px;
+
+    transition: 1s;
+
+}
+
+a#largo {
+
+    height: 65px;
+
+}
+
+a#alinks {
+
+    background-color: #fff;
+
+    height: 20px;
+    margin: auto;
+
+}
+
+p#separador {
+
+    background-color: #000;
+
+    text-align: right;
+
+    height: 2px;
+    width: 20%;
+    margin: 20px 6em 20px auto;
+
+}
+
+p#separadordos {
+
+    background-color: #000;
+
+    height: 1.5px;
+    width: 90%;
+    margin: 50px auto 0 auto;
+
+}
+
+p#separadortres {
+
+    background-color: #000;
+
+    height: 1.5px;
+    width: 90%;
+    margin: 50px auto 40px auto;
+
+}
+
+p#separadorcuatro {
+
+    background-color: #000;
+
+    height: 1.5px;
+    width: 90%;
+    margin: 40px auto 15px auto;
+
+}
+
+p#separadorcinco {
+
+    background-color: #000;
+
+    height: 2px;
+    width: 90%;
+    margin: auto auto 25px auto;
+
+}
+
+p#separadorseis {
+
+    background-color: #000;
+
+    height: 2px;
+    width: 90%;
+    margin: 25px auto auto auto;
+
+}
+
+img#imgventana {
+
+    border: 2px solid #000;
+    box-shadow: 6px 6px 0 #000;
+
+    align-self: center;
+
+    height: 221.2665px;
+    width: 435.533px;
+    margin: 5px 60px 0 5px;
+
+}
+
+img#imgventanaalto {
+
+    border: 2px solid #000;
+    box-shadow: 6px 6px 0 #000;
+
+    align-self: center;
+
+    height: 95%;
+    width: 435.533px;
+    margin: 5px 60px 0 5px;
+
+}
+
+img#gifventana{
+
+    border: 2px solid #000;
+    box-shadow: 6px 6px 0 #000;
+
+    margin: auto;
+
+}
+
+img#imgsorner {
+    border: 2px solid #000;
+    box-shadow: 6px 6px 0 #000;
+
+    height: 400px;
+    width: 700px;
+    margin: auto;
+
+}
+
+h3 {
+
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+    margin: 15px 20px 5px 20px;
+
+}
+
+p, ul, ol {
+
+    margin: 12px 20px;
+
+}
+
+a:link, a:visited, a#links:link, a#links:visited {
+
+    color: #000;
+
+    text-align: center;
+    text-decoration: none;
+
+}
+
+a:hover {
+
+    width: 60%;
+
+}
+
